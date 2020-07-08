@@ -1,0 +1,28 @@
+{
+  "name": "homework_burger_yum",
+  "version": "1.0.0",
+  "description": "homework 13",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulinalo22/homework_burger_yum.git"
+  },
+  "keywords": [
+    "burger"
+  ],
+  "author": "Paulina Lopez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paulinalo22/homework_burger_yum/issues"
+  },
+  "homepage": "https://github.com/paulinalo22/homework_burger_yum#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.0.0",
+    "mysql": "^2.18.1"
+  }
+}

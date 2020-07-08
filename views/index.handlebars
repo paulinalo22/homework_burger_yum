@@ -1,0 +1,47 @@
+<div class="row mx-auto">
+  <img src="/assets/img/bob.png" alt="test image">
+</div>
+
+<div class="row mx-auto">
+  <h1 class="mx-auto"> Bob's Burger of the Day </h1>
+</div>
+
+<div class="row">
+  <div class="col mx-auto">
+    <ul id="uneaten">
+      <h2> Not Munched! </h2>
+      {{#each burgers}}
+      {{#unless devoured}}
+      {{> burgers/burger-block devoured=false}}
+      {{/unless}}
+      {{/each}}
+    </ul>
+  </div>
+
+  <div class="col mx-auto">
+    <ul id="eaten">
+      <h2>Munched! </h2>
+      {{#each burgers}}
+      {{#if devoured}}
+      {{> burgers/burger-block devoured=true}}
+      {{/if}}
+      {{/each}}
+    </ul>
+  </div>
+
+</div>
+
+<div class="row mx-auto">
+  <h5>Tell Bob what burger you want to MUNCH, then Bob will "Cook it" for you!.</h3>
+</div>
+
+<div class="row mx-auto">
+  <form class="create-form ">
+    <div class="form-group ">
+      <input type="text" id="newBurger" name="burger_name">
+    </div>
+    <button type="submit" class="btn-sm btn ">Cook it!</button>
+  </form>
+
+
+</div>
