@@ -34,8 +34,8 @@ Productivity and fun!
 
 ## Links
 
-[Deployed App in Heroku](https://floating-falls-01477.herokuapp.com/)
-[Link to Pauli's Portfolio](https://paulinalo22.github.io/new_improved_portfolio/)
+- [Deployed App in Heroku](https://floating-falls-01477.herokuapp.com/)
+- [Link to Pauli's Portfolio](https://paulinalo22.github.io/new_improved_portfolio/)
 
 ## Licenses
 
