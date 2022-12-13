@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/paulinalo22/homework_burger_yum#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-handlebars": "^5.0.0",
     "mysql": "^2.18.1"
   }
